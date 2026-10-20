@@ -1,0 +1,13 @@
+{
+  "overview": [
+    "Glass that joins into one clear sheet, and broken glass that leaves shards to make cracked glass from."
+  ],
+  "versions": {
+    "1.0.0": [
+      "Glass and glass panes of every kind join up with the same glass beside them, so a window is one sheet instead of a grid of frames.",
+      "Glass broken without silk touch drops shards: nine from a block, four from a pane, now and then one fewer.",
+      "Nine shards make cracked glass and four make a cracked pane, and either smelts back into clear glass.",
+      "Cracked glass breaks three times quicker than glass, gives way about three times in ten when set in place, and goes through under anything that stands on it for about three seconds."
+    ]
+  }
+}

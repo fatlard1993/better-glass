@@ -1,0 +1,16 @@
+{
+  "parent": "better-glass-justfatlard:block/connected/cube_north_east_faint",
+  "textures": {
+    "particle": "better-glass-justfatlard:block/connected/green_stained_glass_inner",
+    "inner": "better-glass-justfatlard:block/connected/green_stained_glass_inner",
+    "bare": "better-glass-justfatlard:block/connected/green_stained_glass_bare",
+    "edge_top": "better-glass-justfatlard:block/connected/green_stained_glass_edge_top",
+    "faint_top": "better-glass-justfatlard:block/connected/green_stained_glass_edge_top_faint",
+    "edge_bottom": "better-glass-justfatlard:block/connected/green_stained_glass_edge_bottom",
+    "faint_bottom": "better-glass-justfatlard:block/connected/green_stained_glass_edge_bottom_faint",
+    "edge_left": "better-glass-justfatlard:block/connected/green_stained_glass_edge_left",
+    "faint_left": "better-glass-justfatlard:block/connected/green_stained_glass_edge_left_faint",
+    "edge_right": "better-glass-justfatlard:block/connected/green_stained_glass_edge_right",
+    "faint_right": "better-glass-justfatlard:block/connected/green_stained_glass_edge_right_faint"
+  }
+}

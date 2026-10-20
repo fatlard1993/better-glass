@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "better-glass-gametest",
+	"version": "1.0.0",
+	"name": "Better Glass gametests",
+	"description": "Checks what broken glass drops, and photographs joined glass.",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"justfatlard.better_glass.gametest.GlassBreaksIntoShards",
+			"justfatlard.better_glass.gametest.Showcase"
+		]
+	},
+	"depends": {
+		"better-glass-justfatlard": "*",
+		"fabric-client-gametest-api-v1": "*"
+	}
+}

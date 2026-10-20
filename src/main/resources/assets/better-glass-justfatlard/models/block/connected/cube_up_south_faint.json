@@ -1,0 +1,25 @@
+{
+  "textures": {
+    "particle": "#inner"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#faint_bottom",
+          "cullface": "up"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "better-glass-justfatlard:cracked_glass_pane"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "better-glass-justfatlard:glass_shard",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 4
+                },
+                {
+                  "type": "minecraft:set_count",
+                  "count": -1,
+                  "add": true,
+                  "condition": {
+                    "type": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "better-glass-justfatlard:blocks/cracked_glass_pane"
+}
