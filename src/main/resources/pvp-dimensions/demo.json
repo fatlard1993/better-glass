@@ -1,0 +1,44 @@
+{
+  "demo": {
+    "name": "Better Glass",
+    "icon": "better-glass-justfatlard:cracked_glass",
+    "about": [
+      "Glass joins into one clear sheet with its frame only round the outside, and broken glass drops shards that go back together as cracked glass.",
+      "Build a wall of the glass and a run of panes, break some by hand for its shards, craft nine into cracked glass, then stand on it and see how long it holds."
+    ]
+  },
+  "pvp_preset": 1,
+  "needs": ["better-glass-justfatlard"],
+  "preset": {
+    "name": "Better Glass",
+    "icon": "better-glass-justfatlard:cracked_glass",
+    "pvp": false,
+    "game_mode": "survival",
+    "entry_kit": [
+      {"slot": 0, "item": {"id": "minecraft:glass", "count": 64}},
+      {"slot": 1, "item": {"id": "minecraft:glass_pane", "count": 64}},
+      {"slot": 2, "item": {"id": "minecraft:red_stained_glass", "count": 16}},
+      {"slot": 3, "item": {"id": "minecraft:light_blue_stained_glass_pane", "count": 32}},
+      {"slot": 4, "item": {"id": "better-glass-justfatlard:cracked_glass", "count": 16}},
+      {"slot": 5, "item": {"id": "better-glass-justfatlard:glass_shard", "count": 18}},
+      {"slot": 6, "item": {"id": "minecraft:crafting_table", "count": 1}},
+      {"slot": 7, "item": {"id": "minecraft:furnace", "count": 1}},
+      {"slot": 8, "item": {"id": "minecraft:bread", "count": 8}},
+      {"slot": 9, "item": {"id": "minecraft:glass", "count": 64}},
+      {"slot": 10, "item": {"id": "minecraft:tinted_glass", "count": 8}},
+      {"slot": 11, "item": {"id": "better-glass-justfatlard:cracked_glass_pane", "count": 16}},
+      {"slot": 12, "item": {"id": "minecraft:coal", "count": 8}},
+      {"slot": 13, "item": {"id": "minecraft:oak_planks", "count": 32}},
+      {"slot": 14, "item": {"id": "minecraft:iron_pickaxe", "count": 1, "components": {"minecraft:enchantments": {"minecraft:silk_touch": 1}}}}
+    ],
+    "respawn_kit": "entry",
+    "goal": "time",
+    "mobs": "off",
+    "life": 15,
+    "size": 2,
+    "world": "overworld",
+    "shape": "flat",
+    "biome": "minecraft:plains",
+    "weather": "clear"
+  }
+}
