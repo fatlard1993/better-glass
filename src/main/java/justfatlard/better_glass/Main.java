@@ -63,6 +63,7 @@ public class Main implements ModInitializer {
 			content.accept(GLASS_SHARD));
 
 		GlassShardLoot.register();
+		Fragile.register();
 
 		System.out.println("[" + MOD_ID + "] Loaded");
 	}

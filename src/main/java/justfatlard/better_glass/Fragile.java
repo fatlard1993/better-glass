@@ -1,5 +1,6 @@
 package justfatlard.better_glass;
 
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.GlobalPos;
 import net.minecraft.server.level.ServerLevel;
@@ -34,6 +35,11 @@ public final class Fragile {
 	private static final Map<GlobalPos, Integer> STRAIN = new HashMap<>();
 
 	private Fragile() {}
+
+	/** Positions are only meaningful in the world they came from. */
+	static void register() {
+		ServerLifecycleEvents.SERVER_STOPPED.register(server -> STRAIN.clear());
+	}
 
 	static void placed(Level level, BlockPos pos, Block block) {
 		if (level instanceof ServerLevel server && server.getRandom().nextFloat() < SHATTER_CHANCE) {
