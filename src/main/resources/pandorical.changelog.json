@@ -3,6 +3,10 @@
     "Glass that joins into one clear sheet, and broken glass that leaves shards to make cracked glass from."
   ],
   "versions": {
+    "1.0.1": [
+      "A demo to play in PvP Dimensions' onboarding.",
+      "Cracked glass about to give way is forgotten when the server stops, so it cannot shatter glass in the next world."
+    ],
     "1.0.0": [
       "Glass and glass panes of every kind join up with the same glass beside them, so a window is one sheet instead of a grid of frames.",
       "Glass broken without silk touch drops shards: nine from a block, four from a pane, now and then one fewer.",
