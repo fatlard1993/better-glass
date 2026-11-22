@@ -3,7 +3,7 @@
   "id": "better-glass-justfatlard",
   "version": "${version}",
   "name": "Better Glass",
-  "description": "Glass that joins into one clear sheet, and shards from broken glass that go back together as cracked glass",
+  "description": "Glass that joins into one clear sheet, and broken glass that mends into cracked glass",
   "authors": [
     "justfatlard"
   ],
