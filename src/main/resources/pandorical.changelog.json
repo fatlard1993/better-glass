@@ -3,6 +3,9 @@
     "Glass that joins into one clear sheet, and broken glass that leaves shards to make cracked glass from."
   ],
   "versions": {
+    "1.0.2": [
+      "Describes itself in one short line of what it adds."
+    ],
     "1.0.1": [
       "A demo to play in PvP Dimensions' onboarding.",
       "Cracked glass about to give way is forgotten when the server stops, so it cannot shatter glass in the next world."
